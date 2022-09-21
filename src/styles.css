@@ -1,0 +1,50 @@
+body {
+  font-family: “Verdana, Arial, sans-serif”;
+}
+
+div > table > tbody > tr > td {
+  padding: 6px;
+  border-bottom: 1px solid grey;
+}
+
+.table-color tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-color tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+div > table > thead {
+  background-color: #b7d0ff;
+  font: bold;
+  padding-top: 12px;
+  padding-right: 0px;
+  padding-bottom: 12px;
+  padding-left: 6px;
+  border-bottom: 2px solid grey;
+}
+
+div > table {
+  border-collapse: collapse;
+  font-size: 16px;
+  text-align: left;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  padding: 60px;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.good {
+  background-color: #abffbd;
+}
+.bad {
+  background-color: #ff9e9e;
+}
